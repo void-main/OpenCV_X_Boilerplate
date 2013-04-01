@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF5A43271709A630004184B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF5A43261709A630004184B0 /* main.cpp */; };
+		DF5A43291709A630004184B0 /* OpenCV_Boilerplate.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF5A43281709A630004184B0 /* OpenCV_Boilerplate.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF5A43211709A62F004184B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				DF5A43291709A630004184B0 /* OpenCV_Boilerplate.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF5A43231709A630004184B0 /* OpenCV_Boilerplate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCV_Boilerplate; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5A43261709A630004184B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DF5A43281709A630004184B0 /* OpenCV_Boilerplate.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OpenCV_Boilerplate.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5A43201709A62F004184B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF5A431A1709A62F004184B0 = {
+			isa = PBXGroup;
+			children = (
+				DF5A43251709A630004184B0 /* OpenCV_Boilerplate */,
+				DF5A43241709A630004184B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5A43241709A630004184B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A43231709A630004184B0 /* OpenCV_Boilerplate */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5A43251709A630004184B0 /* OpenCV_Boilerplate */ = {
+			isa = PBXGroup;
+			children = (
+				DF5A43261709A630004184B0 /* main.cpp */,
+				DF5A43281709A630004184B0 /* OpenCV_Boilerplate.1 */,
+			);
+			path = OpenCV_Boilerplate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5A43221709A62F004184B0 /* OpenCV_Boilerplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5A432C1709A630004184B0 /* Build configuration list for PBXNativeTarget "OpenCV_Boilerplate" */;
+			buildPhases = (
+				DF5A431F1709A62F004184B0 /* Sources */,
+				DF5A43201709A62F004184B0 /* Frameworks */,
+				DF5A43211709A62F004184B0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCV_Boilerplate;
+			productName = OpenCV_Boilerplate;
+			productReference = DF5A43231709A630004184B0 /* OpenCV_Boilerplate */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5A431B1709A62F004184B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Void Main Studio";
+			};
+			buildConfigurationList = DF5A431E1709A62F004184B0 /* Build configuration list for PBXProject "OpenCV_Boilerplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF5A431A1709A62F004184B0;
+			productRefGroup = DF5A43241709A630004184B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5A43221709A62F004184B0 /* OpenCV_Boilerplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5A431F1709A62F004184B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5A43271709A630004184B0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF5A432A1709A630004184B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DF5A432B1709A630004184B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DF5A432D1709A630004184B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF5A432E1709A630004184B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5A431E1709A62F004184B0 /* Build configuration list for PBXProject "OpenCV_Boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5A432A1709A630004184B0 /* Debug */,
+				DF5A432B1709A630004184B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5A432C1709A630004184B0 /* Build configuration list for PBXNativeTarget "OpenCV_Boilerplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5A432D1709A630004184B0 /* Debug */,
+				DF5A432E1709A630004184B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF5A431B1709A62F004184B0 /* Project object */;
+}
